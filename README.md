@@ -7,7 +7,7 @@ The "Filmoteka" project is a web application for browsing and managing a collect
 
 The application allows users to search a movie database, add them to a "Watch Later" or "Watched" list, and use a modal window where they can find movie descriptions and options to add them to the queue or the watched list.
 
-## Screenshots
+## Gallery
 
 ### 1. Main page with movie gallery
 ![Mainpage](./public/images/main.png)
