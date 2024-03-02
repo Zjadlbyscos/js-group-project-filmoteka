@@ -1,17 +1,10 @@
+function handleScroll() {
+  const currentScroll = window.scrollY || document.documentElement.scrollTop;
+  const header = document.querySelector('.header');
+  const scrolling = currentScroll>lastScrollTop;
+  header.classList.toggle('scrolling', scrolling);
+  lastScrollTop = currentScroll;
+}
+
 let lastScrollTop = 0;
-
-window.addEventListener("scroll",function(){
-
-    let currentScroll = window.scrollY || this.document.documentElement.scrollTop;
-
-if (currentScroll>lastScrollTop){
-
-    this.document.querySelector('.header').classList.add('scrolling');
-
-}
-else{
-this.document.querySelector('.header').classList.remove('scrolling');
-
-}
-lastScrollTop=currentScroll
-})
+window.addEventListener('scroll', handleScroll);
