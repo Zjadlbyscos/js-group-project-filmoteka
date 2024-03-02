@@ -10,6 +10,7 @@ import './js/modal-close.js';
 import './js/modal-team.js';
 import './js/clear-search-input.js';
 import { drawMovies } from './js/draw-movie';
+import './js/scroll-header.js';
 
 import './sass/main.scss';
 
